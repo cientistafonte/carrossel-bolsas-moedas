@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --navy:#1c2b5a; --navy-deep:#16214a; --texto:#243468;
+    --pos:#1c2b5a; --neg:#1c2b5a; --fundo-a:#d9d9d6; --fundo-b:#c9c9c6;
+    --brass:#b9975b;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{width:1080px;height:1350px;overflow:hidden;}
+  body{
+    font-family:'Inter','Segoe UI',system-ui,sans-serif;
+    background:
+      radial-gradient(120% 90% at 50% 0%, var(--fundo-a) 0%, var(--fundo-b) 100%);
+    color:var(--texto);
+    display:flex;flex-direction:column;
+    padding:56px 72px 40px;
+    position:relative;
+  }
+  /* marca d'água de candles, bem sutil, como no modelo */
+  .candles{position:absolute;inset:0;opacity:.07;pointer-events:none;}
+  .candles svg{width:100%;height:100%;}
+
+  header{text-align:center;margin-bottom:26px;position:relative;z-index:1;}
+  h1{font-size:46px;font-weight:800;color:var(--navy-deep);letter-spacing:-.01em;}
+  .sub{font-size:27px;font-weight:600;color:var(--texto);opacity:.75;margin-top:8px;}
+
+  .lista{flex:1;display:flex;flex-direction:column;justify-content:space-evenly;
+         position:relative;z-index:1;}
+  .linha{display:flex;align-items:center;gap:22px;padding:0 26px;}
+  .bandeira{font-size:44px;line-height:1;width:60px;text-align:center;
+            filter:drop-shadow(0 2px 3px rgba(0,0,0,.18));}
+  .nome{font-size:33px;font-weight:600;flex:1;}
+  .valor{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;}
+
+  .linha.destaque{
+    background:linear-gradient(180deg,#25346b,var(--navy-deep));
+    border-radius:999px;padding:14px 34px;margin:2px -8px;
+    box-shadow:0 8px 22px rgba(22,33,74,.35);
+  }
+  .linha.destaque .nome,.linha.destaque .valor{color:#fff;}
+  .linha.destaque .valor{color:#fff;}
+
+  .divisor{display:flex;align-items:center;gap:14px;margin:4px 0;}
+  .setas{display:flex;flex-direction:column;line-height:.75;font-size:24px;}
+  .setas .up{color:var(--navy);} .setas .down{color:#c0392b;}
+  .divisor .traco{flex:1;height:2px;background:var(--navy-deep);opacity:.85;}
+
+  footer{display:flex;justify-content:space-between;align-items:flex-end;
+         margin-top:24px;position:relative;z-index:1;}
+  .handle{font-size:24px;font-weight:700;color:var(--navy-deep);}
+  .disclaimer{font-size:16px;opacity:.6;max-width:640px;text-align:right;line-height:1.35;}
+</style>
+</head>
+<body>
+  <div class="candles">
+    <svg viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+      <!-- candles decorativos gerados no render -->
+      {{CANDLES}}
+    </svg>
+  </div>
+  <header>
+    <h1>{{TITULO}}</h1>
+    <div class="sub">{{SUBTITULO}}</div>
+  </header>
+  <div class="lista">
+    {{LINHAS}}
+  </div>
+  <footer>
+    <div class="handle">@font.matheus</div>
+    <div class="disclaimer">Fonte: Yahoo Finance. Índices convertidos para dólar
+      (variação local composta com a variação cambial). Conteúdo informativo e
+      educacional — não constitui recomendação de investimento.</div>
+  </footer>
+</body>
+</html>
