@@ -1,133 +1,133 @@
 {
   "meta": {
-    "gerado_em": "2026-09-01",
-    "rotulo_mes": "Agosto de 2026",
-    "rotulo_12m": "12 meses até ago/26",
-    "fim_janela": "2026-08-31",
-    "inicio_mes": "2026-07-31",
-    "inicio_12m": "2025-08-31"
+    "gerado_em": "2026-10-01",
+    "rotulo_mes": "Setembro de 2026",
+    "rotulo_12m": "12 meses até set/26",
+    "fim_janela": "2026-09-30",
+    "inicio_mes": "2026-08-31",
+    "inicio_12m": "2025-09-30"
   },
   "dados": {
     "mes": {
       "bolsas": [
         {
+          "nome": "Ibovespa",
+          "bandeira": "🇧🇷",
+          "valor": 4.79,
+          "destaque": true
+        },
+        {
           "nome": "TSEC Index (Taiwan)",
           "bandeira": "🇹🇼",
-          "valor": 9.58,
-          "destaque": false
-        },
-        {
-          "nome": "JSE Top 40 (ZAF)",
-          "bandeira": "🇿🇦",
-          "valor": 7.49,
-          "destaque": false
-        },
-        {
-          "nome": "KOSPI (KOR)",
-          "bandeira": "🇰🇷",
-          "valor": 6.67,
-          "destaque": false
-        },
-        {
-          "nome": "IDX Composite (IDN)",
-          "bandeira": "🇮🇩",
-          "valor": 6.36,
-          "destaque": false
-        },
-        {
-          "nome": "BIST 100 (TUR)",
-          "bandeira": "🇹🇷",
-          "valor": 4.86,
-          "destaque": false
-        },
-        {
-          "nome": "SSE Composite (CHN)",
-          "bandeira": "🇨🇳",
-          "valor": 4.47,
-          "destaque": false
-        },
-        {
-          "nome": "NASDAQ",
-          "bandeira": "🇺🇸",
-          "valor": 3.93,
-          "destaque": false
-        },
-        {
-          "nome": "TSX (CAN)",
-          "bandeira": "🇨🇦",
-          "valor": 3.8,
-          "destaque": false
-        },
-        {
-          "nome": "Shenzhen Index",
-          "bandeira": "🇨🇳",
-          "valor": 3.66,
-          "destaque": false
-        },
-        {
-          "nome": "ASX 200 (AUS)",
-          "bandeira": "🇦🇺",
-          "valor": 3.09,
+          "valor": 3.2,
           "destaque": false
         },
         {
           "nome": "Nikkei (JPN)",
           "bandeira": "🇯🇵",
-          "valor": 3.07,
+          "valor": 2.4,
+          "destaque": false
+        },
+        {
+          "nome": "KOSPI (KOR)",
+          "bandeira": "🇰🇷",
+          "valor": 2.24,
+          "destaque": false
+        },
+        {
+          "nome": "NASDAQ",
+          "bandeira": "🇺🇸",
+          "valor": 1.86,
           "destaque": false
         },
         {
           "nome": "S&P 500",
           "bandeira": "🇺🇸",
-          "valor": 2.62,
-          "destaque": false
-        },
-        {
-          "nome": "Stoxx 50 (EUR)",
-          "bandeira": "🇪🇺",
-          "valor": 1.55,
-          "destaque": false
-        },
-        {
-          "nome": "FTSE 100 (UK)",
-          "bandeira": "🇬🇧",
-          "valor": -0.11,
-          "destaque": false
-        },
-        {
-          "nome": "IPC Mexico",
-          "bandeira": "🇲🇽",
           "valor": -0.45,
           "destaque": false
         },
         {
-          "nome": "SMI (SUI)",
-          "bandeira": "🇨🇭",
-          "valor": -0.79,
-          "destaque": false
-        },
-        {
-          "nome": "Nifty 50 (IND)",
-          "bandeira": "🇮🇳",
-          "valor": -0.93,
+          "nome": "SSE Composite (CHN)",
+          "bandeira": "🇨🇳",
+          "valor": -3.28,
           "destaque": false
         },
         {
           "nome": "Hang Seng (HKG)",
           "bandeira": "🇭🇰",
-          "valor": -1.19,
+          "valor": -3.81,
           "destaque": false
         },
         {
-          "nome": "Ibovespa",
-          "bandeira": "🇧🇷",
-          "valor": -2.5,
-          "destaque": true
+          "nome": "FTSE 100 (UK)",
+          "bandeira": "🇬🇧",
+          "valor": -4.24,
+          "destaque": false
+        },
+        {
+          "nome": "Stoxx 50 (EUR)",
+          "bandeira": "🇪🇺",
+          "valor": -4.44,
+          "destaque": false
+        },
+        {
+          "nome": "TSX (CAN)",
+          "bandeira": "🇨🇦",
+          "valor": -4.85,
+          "destaque": false
+        },
+        {
+          "nome": "ASX 200 (AUS)",
+          "bandeira": "🇦🇺",
+          "valor": -5.51,
+          "destaque": false
+        },
+        {
+          "nome": "SMI (SUI)",
+          "bandeira": "🇨🇭",
+          "valor": -6.14,
+          "destaque": false
+        },
+        {
+          "nome": "Nifty 50 (IND)",
+          "bandeira": "🇮🇳",
+          "valor": -6.72,
+          "destaque": false
+        },
+        {
+          "nome": "IDX Composite (IDN)",
+          "bandeira": "🇮🇩",
+          "valor": -6.9,
+          "destaque": false
+        },
+        {
+          "nome": "IPC Mexico",
+          "bandeira": "🇲🇽",
+          "valor": -7.37,
+          "destaque": false
+        },
+        {
+          "nome": "Shenzhen Index",
+          "bandeira": "🇨🇳",
+          "valor": -7.73,
+          "destaque": false
+        },
+        {
+          "nome": "JSE Top 40 (ZAF)",
+          "bandeira": "🇿🇦",
+          "valor": -8.59,
+          "destaque": false
         },
         {
           "nome": "Merval (ARG)",
           "bandeira": "🇦🇷",
-          "valor": -8.42,
+          "valor": -8.67,
+          "destaque": false
+        },
+        {
+          "nome": "BIST 100 (TUR)",
+          "bandeira": "🇹🇷",
+          "valor": -17.95,
           "destaque": false
         }
       ],
@@ -135,97 +135,67 @@
         {
           "nome": "Won Sul-Coreano",
           "bandeira": "🇰🇷",
-          "valor": 3.16,
-          "destaque": false
-        },
-        {
-          "nome": "Dólar Taiwan",
-          "bandeira": "🇹🇼",
-          "valor": 2.43,
-          "destaque": false
-        },
-        {
-          "nome": "Rand Sul-Africano",
-          "bandeira": "🇿🇦",
-          "valor": 2.05,
-          "destaque": false
-        },
-        {
-          "nome": "Dólar Australiano",
-          "bandeira": "🇦🇺",
-          "valor": 1.96,
-          "destaque": false
-        },
-        {
-          "nome": "Peso Mexicano",
-          "bandeira": "🇲🇽",
-          "valor": 1.84,
-          "destaque": false
-        },
-        {
-          "nome": "Rupia Indonésia",
-          "bandeira": "🇮🇩",
-          "valor": 1.64,
-          "destaque": false
-        },
-        {
-          "nome": "Dólar Canadense",
-          "bandeira": "🇨🇦",
-          "valor": 0.81,
-          "destaque": false
-        },
-        {
-          "nome": "Libra",
-          "bandeira": "🇬🇧",
-          "valor": 0.59,
-          "destaque": false
-        },
-        {
-          "nome": "Dólar Singapura",
-          "bandeira": "🇸🇬",
-          "valor": 0.58,
-          "destaque": false
-        },
-        {
-          "nome": "Euro",
-          "bandeira": "🇪🇺",
-          "valor": 0.57,
-          "destaque": false
-        },
-        {
-          "nome": "Yuan Chinês",
-          "bandeira": "🇨🇳",
-          "valor": 0.43,
-          "destaque": false
-        },
-        {
-          "nome": "Rupia Indiana",
-          "bandeira": "🇮🇳",
-          "valor": 0.32,
+          "valor": 1.97,
           "destaque": false
         },
         {
           "nome": "Iene Japonês",
           "bandeira": "🇯🇵",
-          "valor": 0.04,
+          "valor": 1.73,
+          "destaque": false
+        },
+        {
+          "nome": "Rublo Russo",
+          "bandeira": "🇷🇺",
+          "valor": 1.65,
+          "destaque": false
+        },
+        {
+          "nome": "Yuan Chinês",
+          "bandeira": "🇨🇳",
+          "valor": 0.34,
+          "destaque": false
+        },
+        {
+          "nome": "Rupia Indonésia",
+          "bandeira": "🇮🇩",
+          "valor": 0.07,
           "destaque": false
         },
         {
           "nome": "Dólar Hong Kong",
           "bandeira": "🇭🇰",
-          "valor": 0.04,
+          "valor": -0.08,
           "destaque": false
         },
         {
-          "nome": "Franco Suíço",
-          "bandeira": "🇨🇭",
-          "valor": -0.38,
+          "nome": "Real Brasileiro",
+          "bandeira": "🇧🇷",
+          "valor": -0.22,
+          "destaque": true
+        },
+        {
+          "nome": "Dólar Singapura",
+          "bandeira": "🇸🇬",
+          "valor": -0.24,
           "destaque": false
         },
         {
-          "nome": "Peso Argentino",
-          "bandeira": "🇦🇷",
-          "valor": -0.65,
+          "nome": "Dólar Taiwan",
+          "bandeira": "🇹🇼",
+          "valor": -0.7,
+          "destaque": false
+        },
+        {
+          "nome": "Rupia Indiana",
+          "bandeira": "🇮🇳",
+          "valor": -0.7,
+          "destaque": false
+        },
+        {
+          "nome": "Rand Sul-Africano",
+          "bandeira": "🇿🇦",
+          "valor": -1.36,
           "destaque": false
         },
         {
@@ -235,15 +205,45 @@
           "destaque": false
         },
         {
-          "nome": "Real Brasileiro",
-          "bandeira": "🇧🇷",
-          "valor": -2.18,
-          "destaque": true
+          "nome": "Peso Argentino",
+          "bandeira": "🇦🇷",
+          "valor": -1.72,
+          "destaque": false
         },
         {
-          "nome": "Rublo Russo",
-          "bandeira": "🇷🇺",
-          "valor": -6.35,
+          "nome": "Dólar Canadense",
+          "bandeira": "🇨🇦",
+          "valor": -2.06,
+          "destaque": false
+        },
+        {
+          "nome": "Euro",
+          "bandeira": "🇪🇺",
+          "valor": -2.14,
+          "destaque": false
+        },
+        {
+          "nome": "Libra",
+          "bandeira": "🇬🇧",
+          "valor": -2.27,
+          "destaque": false
+        },
+        {
+          "nome": "Dólar Australiano",
+          "bandeira": "🇦🇺",
+          "valor": -2.43,
+          "destaque": false
+        },
+        {
+          "nome": "Franco Suíço",
+          "bandeira": "🇨🇭",
+          "valor": -3.04,
+          "destaque": false
+        },
+        {
+          "nome": "Peso Mexicano",
+          "bandeira": "🇲🇽",
+          "valor": -5.61,
           "destaque": false
         }
       ]
@@ -253,237 +253,237 @@
         {
           "nome": "KOSPI (KOR)",
           "bandeira": "🇰🇷",
-          "valor": 115.2,
+          "valor": 106.89,
           "destaque": false
         },
         {
           "nome": "TSEC Index (Taiwan)",
           "bandeira": "🇹🇼",
-          "valor": 83.53,
-          "destaque": false
-        },
-        {
-          "nome": "Nikkei (JPN)",
-          "bandeira": "🇯🇵",
-          "valor": 42.31,
+          "valor": 77.55,
           "destaque": false
         },
         {
           "nome": "Merval (ARG)",
           "bandeira": "🇦🇷",
-          "valor": 36.05,
+          "valor": 41.58,
+          "destaque": false
+        },
+        {
+          "nome": "Nikkei (JPN)",
+          "bandeira": "🇯🇵",
+          "valor": 40.25,
           "destaque": false
         },
         {
           "nome": "Ibovespa",
           "bandeira": "🇧🇷",
-          "valor": 30.81,
+          "valor": 30.33,
           "destaque": true
         },
         {
-          "nome": "JSE Top 40 (ZAF)",
-          "bandeira": "🇿🇦",
-          "valor": 26.28,
+          "nome": "NASDAQ",
+          "bandeira": "🇺🇸",
+          "valor": 18.54,
           "destaque": false
         },
         {
           "nome": "TSX (CAN)",
           "bandeira": "🇨🇦",
-          "valor": 25.61,
-          "destaque": false
-        },
-        {
-          "nome": "NASDAQ",
-          "bandeira": "🇺🇸",
-          "valor": 22.91,
-          "destaque": false
-        },
-        {
-          "nome": "IPC Mexico",
-          "bandeira": "🇲🇽",
-          "valor": 22.05,
-          "destaque": false
-        },
-        {
-          "nome": "Stoxx 50 (EUR)",
-          "bandeira": "🇪🇺",
-          "valor": 19.01,
+          "valor": 15.09,
           "destaque": false
         },
         {
           "nome": "S&P 500",
           "bandeira": "🇺🇸",
-          "valor": 18.98,
+          "valor": 14.4,
           "destaque": false
         },
         {
           "nome": "FTSE 100 (UK)",
           "bandeira": "🇬🇧",
-          "valor": 17.73,
+          "valor": 11.7,
           "destaque": false
         },
         {
-          "nome": "Shenzhen Index",
-          "bandeira": "🇨🇳",
-          "valor": 17.4,
+          "nome": "Stoxx 50 (EUR)",
+          "bandeira": "🇪🇺",
+          "valor": 9.59,
           "destaque": false
         },
         {
           "nome": "SMI (SUI)",
           "bandeira": "🇨🇭",
-          "valor": 16.17,
+          "valor": 9.14,
           "destaque": false
         },
         {
           "nome": "ASX 200 (AUS)",
           "bandeira": "🇦🇺",
-          "valor": 10.91,
+          "valor": 5.47,
           "destaque": false
         },
         {
           "nome": "SSE Composite (CHN)",
           "bandeira": "🇨🇳",
-          "valor": 9.89,
+          "valor": 5.1,
+          "destaque": false
+        },
+        {
+          "nome": "JSE Top 40 (ZAF)",
+          "bandeira": "🇿🇦",
+          "valor": 5.07,
+          "destaque": false
+        },
+        {
+          "nome": "IPC Mexico",
+          "bandeira": "🇲🇽",
+          "valor": 3.85,
+          "destaque": false
+        },
+        {
+          "nome": "Shenzhen Index",
+          "bandeira": "🇨🇳",
+          "valor": 1.2,
           "destaque": false
         },
         {
           "nome": "BIST 100 (TUR)",
           "bandeira": "🇹🇷",
-          "valor": 8.28,
+          "valor": -7.96,
           "destaque": false
         },
         {
           "nome": "Hang Seng (HKG)",
           "bandeira": "🇭🇰",
-          "valor": 1.36,
+          "valor": -9.09,
           "destaque": false
         },
         {
           "nome": "Nifty 50 (IND)",
           "bandeira": "🇮🇳",
-          "valor": -9.47,
+          "valor": -15.12,
           "destaque": false
         },
         {
           "nome": "IDX Composite (IDN)",
           "bandeira": "🇮🇩",
-          "valor": -23.26,
+          "valor": -29.39,
           "destaque": false
         }
       ],
       "moedas": [
         {
-          "nome": "Dólar Australiano",
-          "bandeira": "🇦🇺",
-          "valor": 9.65,
+          "nome": "Yuan Chinês",
+          "bandeira": "🇨🇳",
+          "valor": 6.21,
           "destaque": false
         },
         {
-          "nome": "Peso Mexicano",
-          "bandeira": "🇲🇽",
-          "valor": 9.51,
+          "nome": "Dólar Australiano",
+          "bandeira": "🇦🇺",
+          "valor": 6.18,
           "destaque": false
         },
         {
           "nome": "Rand Sul-Africano",
           "bandeira": "🇿🇦",
-          "valor": 9.35,
-          "destaque": false
-        },
-        {
-          "nome": "Yuan Chinês",
-          "bandeira": "🇨🇳",
-          "valor": 6.35,
-          "destaque": false
-        },
-        {
-          "nome": "Real Brasileiro",
-          "bandeira": "🇧🇷",
-          "valor": 4.27,
-          "destaque": true
-        },
-        {
-          "nome": "Dólar Singapura",
-          "bandeira": "🇸🇬",
-          "valor": 0.6,
+          "valor": 5.24,
           "destaque": false
         },
         {
           "nome": "Won Sul-Coreano",
           "bandeira": "🇰🇷",
-          "valor": 0.53,
+          "valor": 3.62,
           "destaque": false
         },
         {
-          "nome": "Libra",
-          "bandeira": "🇬🇧",
-          "valor": 0.22,
+          "nome": "Real Brasileiro",
+          "bandeira": "🇧🇷",
+          "valor": 2.28,
+          "destaque": true
+        },
+        {
+          "nome": "Peso Mexicano",
+          "bandeira": "🇲🇽",
+          "valor": 1.75,
+          "destaque": false
+        },
+        {
+          "nome": "Dólar Singapura",
+          "bandeira": "🇸🇬",
+          "valor": 0.94,
           "destaque": false
         },
         {
           "nome": "Dólar Hong Kong",
           "bandeira": "🇭🇰",
-          "valor": -0.58,
-          "destaque": false
-        },
-        {
-          "nome": "Euro",
-          "bandeira": "🇪🇺",
-          "valor": -0.79,
-          "destaque": false
-        },
-        {
-          "nome": "Franco Suíço",
-          "bandeira": "🇨🇭",
-          "valor": -0.9,
-          "destaque": false
-        },
-        {
-          "nome": "Dólar Canadense",
-          "bandeira": "🇨🇦",
-          "valor": -1.07,
-          "destaque": false
-        },
-        {
-          "nome": "Dólar Taiwan",
-          "bandeira": "🇹🇼",
-          "valor": -3.58,
+          "valor": -0.8,
           "destaque": false
         },
         {
           "nome": "Rublo Russo",
           "bandeira": "🇷🇺",
-          "valor": -5.44,
+          "valor": -0.81,
           "destaque": false
         },
         {
-          "nome": "Rupia Indonésia",
-          "bandeira": "🇮🇩",
-          "valor": -7.91,
+          "nome": "Libra",
+          "bandeira": "🇬🇧",
+          "valor": -1.52,
           "destaque": false
         },
         {
-          "nome": "Rupia Indiana",
-          "bandeira": "🇮🇳",
-          "valor": -8.17,
+          "nome": "Dólar Canadense",
+          "bandeira": "🇨🇦",
+          "valor": -1.94,
+          "destaque": false
+        },
+        {
+          "nome": "Euro",
+          "bandeira": "🇪🇺",
+          "valor": -3.33,
+          "destaque": false
+        },
+        {
+          "nome": "Dólar Taiwan",
+          "bandeira": "🇹🇼",
+          "valor": -4.37,
+          "destaque": false
+        },
+        {
+          "nome": "Franco Suíço",
+          "bandeira": "🇨🇭",
+          "valor": -4.44,
           "destaque": false
         },
         {
           "nome": "Iene Japonês",
           "bandeira": "🇯🇵",
-          "valor": -8.33,
+          "valor": -5.6,
+          "destaque": false
+        },
+        {
+          "nome": "Rupia Indonésia",
+          "bandeira": "🇮🇩",
+          "valor": -6.25,
+          "destaque": false
+        },
+        {
+          "nome": "Rupia Indiana",
+          "bandeira": "🇮🇳",
+          "valor": -7.65,
           "destaque": false
         },
         {
           "nome": "Peso Argentino",
           "bandeira": "🇦🇷",
-          "valor": -10.99,
+          "valor": -10.94,
           "destaque": false
         },
         {
           "nome": "Lira Turca",
           "bandeira": "🇹🇷",
-          "valor": -14.73,
+          "valor": -15.16,
           "destaque": false
         }
       ]
